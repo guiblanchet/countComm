@@ -1,0 +1,10 @@
+Package: countComm
+Type: Package
+Title: Counting procedure to be more cost effective when sampling ecological communities
+Version: 0.0-1
+Date: 2015-10-16
+Author: F. Guillaume Blanchet
+Maintainer: F. Guillaume Blanchet <guillaume.blanchet@math.mcmaster.ca>
+Depends: spatstat, vegan
+Description: The paper "A new cost-effective approach to survey ecological communities" presents a counting approach that makes it possible to be more cost effective when sampling communities. This package includes all the functions that were used to carry out the analyses in this paper. It also presents functions that can be used to carry out the analyses on independent pilot study.
+License: GPL (>=2)

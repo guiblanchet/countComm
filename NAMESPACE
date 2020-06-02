@@ -1,0 +1,13 @@
+## Import package
+import(stats)
+
+## Import specific functions
+importFrom(vegan, bstick)
+importFrom(vegan, decostand)
+importFrom(vegan, vegdist)
+importFrom(vegan, designdist)
+importFrom(spatstat, rMatClust)
+
+## Export regular functions (no points functions)
+export(commSimul,countingRV,partAbund,RV)
+
